@@ -4,6 +4,8 @@
 
 package ifto.trabalho.geracaocotas2024;
 
+import view.CadastroView;
+
 /**
  *
  * @author Dheyf
@@ -11,6 +13,7 @@ package ifto.trabalho.geracaocotas2024;
 public class GeracaoCotas2024 {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        CadastroView tela = new CadastroView();
+        tela.setVisible(true);
     }
 }
